@@ -1,4 +1,4 @@
-package jp.co.kenshu.form.Employee;
+package jp.co.kenshu.form.employee;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
@@ -9,28 +9,22 @@ import jp.co.kenshu.validator.annotation.Memo;
 
 public class EmployeeListForm {
 
-	//これを入力することによって、値がない場合をエラーにできる
-	//エラーの表示は、jspにform:errorsタグを追加
 	@NotEmpty
-    private String name;
+	private String name;
 	@NotNull
-	@Min(value = 18)
-    private Integer age;
-	@Memo(value = 50)
-    private String memo;
+	@Min(18)
+	private Integer age;
+	@Memo(50)
+	private String memo;
 
 
-    public String getName() {
+	public String getName() {
 		return name;
 	}
 
 	public void setName(String name) {
 		this.name = name;
 	}
-
-	//intは初期値が0なので、0が表示されてしまう
-	//Integerなら初期値がnullで、nullは表示されないため
-	//今回はIntegerを使用
 
 	public Integer getAge() {
 		return age;
@@ -47,10 +41,6 @@ public class EmployeeListForm {
 	public void setMemo(String memo) {
 		this.memo = memo;
 	}
+
+
 }
-
-
-
-
-
-
