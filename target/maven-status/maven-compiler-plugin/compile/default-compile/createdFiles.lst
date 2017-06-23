@@ -1,0 +1,5 @@
+jp\co\kenshu\controller\TestController.class
+jp\co\kenshu\service\TestService.class
+jp\co\kenshu\dto\test\TestDto.class
+jp\co\kenshu\entity\Test.class
+jp\co\kenshu\mapper\TestMapper.class
