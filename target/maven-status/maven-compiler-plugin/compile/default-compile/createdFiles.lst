@@ -1,5 +1,9 @@
+jp\co\kenshu\validator\MemoValidator.class
+jp\co\kenshu\dto\employee\EmployeeDto.class
+jp\co\kenshu\form\employee\EmployeeListForm.class
+jp\co\kenshu\entity\Test.class
 jp\co\kenshu\controller\TestController.class
 jp\co\kenshu\service\TestService.class
-jp\co\kenshu\dto\test\TestDto.class
-jp\co\kenshu\entity\Test.class
+jp\co\kenshu\validator\annotation\Memo.class
 jp\co\kenshu\mapper\TestMapper.class
+jp\co\kenshu\dto\test\TestDto.class
